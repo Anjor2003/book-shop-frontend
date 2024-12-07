@@ -1,4 +1,4 @@
 function getImgtUrl(name) {
-  return new URL(`../assets/books/${name}`, import.meta.url);
+  return "https://book-shop-server-zeta.vercel.app";
 }
 export { getImgtUrl };
