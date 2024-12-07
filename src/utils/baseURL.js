@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  return "https://book-shop-server-olive.vercel.app";
+  return  return import.meta.env.VITE_APP_BASE_URL
 }
 
 export default getBaseUrl;
