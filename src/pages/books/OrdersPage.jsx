@@ -32,12 +32,12 @@ const OrdersPage = () => {
               <p className="w-10 px-1 py-2 bg-gray-200 rounded-full text-sm text-center mb-2 ">
                 # {index + 1}
               </p>
-              <h3 className="text-xl font-semibold mb-2 bg-gray-200 p-2 rounded-r-full">
+              <h3 className="text-lg font-semibold mb-2 bg-gray-200 p-2 rounded-r-full">
                 Order Id:
-                <span className="text-gray-600 ml-2">{order._id}</span>
+                <span className="text-gray-600 ml-2 text-lg">{order._id}</span>
               </h3>
               <div className="flex flex-col lg:flex-row justify-between gap-x-4">
-                <div className="lg:px-2">
+                <div className="lg:px-2 text-sm">
                   <p className="text-gray-600 mb-2">
                     <span className="font-semibold mr-2">Nombre:</span>
                     {order.name}
